@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>its.flame's Jailed</title>
+<link rel="icon" href="favicon.png" type="image/x-icon">
+
+<style>
+body {
+    margin: 0;
+    background: #0b0b0f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    cursor: pointer;
+    background: #0b0b0f;
+}
+
+.header img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.wrapper {
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.subsection {
+    margin-bottom: 28px;
+}
+
+.subsection-title {
+    font-size: 22px;
+    font-weight: 600;
+    opacity: 0.85;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    width: 75%;
+    margin: 0 auto 14px auto;
+    padding: 18px 16px;
+
+    background: linear-gradient(135deg, #5f7cff, #9b5cff);
+    border-radius: 18px;
+
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+
+    box-shadow: 0 10px 30px rgba(111, 92, 255, 0.45);
+    transition: 
+        box-shadow 0.2s ease,
+        font-size 0.2s ease,
+        filter 0.2s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4em;
+}
+
+/* icons base */
+.btn::before {
+    content: "";
+    width: 1em;
+    height: 1em;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 22%;
+    flex-shrink: 0;
+}
+
+/* icons */
+.btn.checkra1n::before {
+    background-image: url("icons/checkra1n.png");
+}
+
+
+.btn.chimera::before {
+    background-image: url("icons/chimera.png");
+}
+
+
+.btn.dopamine::before {
+    background-image: url("icons/dopamine.png");
+}
+
+
+.btn.sileo::before {
+    background-image: url("icons/sileo.png");
+}
+
+.btn.cydia::before {
+    background-image: url("icons/cydia.png");
+}
+
+
+.btn.sideloadly::before {
+    background-image: url("icons/sideloadly.png");
+}
+
+.btn.impactor::before {
+    background-image: url("icons/impactor.png");
+}
+
+
+.btn.nugget::before {
+    background-image: url("icons/nugget.png");
+}
+
+.btn.cowabunga::before {
+    background-image: url("icons/cowabunga.png");
+}
+
+.btn.utools::before {
+    background-image: url("icons/3utools.png");
+}
+
+
+.btn.altstore::before {
+    background-image: url("icons/altstore.png");
+}
+
+.btn.sidestore::before {
+    background-image: url("icons/sidestore.png");
+}
+
+
+.btn.livecontainer::before {
+    background-image: url("icons/livecontainer.png");
+}
+
+.btn.pocketposter::before {
+    background-image: url("icons/pocketposter.png");
+}
+
+.btn.stikdebug::before {
+    background-image: url("icons/stikdebug.png");
+}
+
+.btn.localdevvpn::before {
+    background-image: url("icons/localdevvpn.png")
+}
+.btn.enswilde::before {
+    background-image: url("icons/enswilde.png");
+}
+
+
+.btn.youtubeoled::before {
+    background-image: url("icons/youtubeoled.png")
+}
+.btn.ytmusicultimate::before {
+    background-image: url("icons/ytmusicultimate.png");
+}
+
+/* other */
+.btn:hover {
+    box-shadow: 0 0 28px rgba(155, 92, 255, 1);
+    font-size: 30px;
+    font-weight: bold;
+    filter: brightness(1.15);
+}
+
+.hint {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+@media (max-width: 400px) {
+    .btn { width: 90%; padding: 14px; font-size: 16px; }
+    .btn:hover { font-size: 18px; }
+    .section-title { font-size: 26px; }
+    .subsection-title { font-size: 18px; }
+    .header-title { font-size: 20px; }
+}
+</style>
+
+<script>
+function goHome() {
+    window.location.href = "index.html";
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="header" onclick="goHome()">
+    <img src="logo.png" alt="Logo">
+    <div class="header-title">its.flame's Jailed</div>
+</div>
+
+<div class="wrapper">
+
+    <div class="section">
+        <div class="section-title">Jailbreak</div>
+
+        <div class="subsection">
+            <div class="subsection-title">Universal — iOS 12+ — iPhone 5s - iPhone X</div>
+            <a class="btn checkra1n" href="#">checkra1n</a>
+        </div>
+
+        <div class="subsection">
+            <div class="subsection-title">iOS 12</div>
+            <a class="btn chimera" href="#">Chimera</a>
+        </div>
+
+        <div class="subsection">
+            <div class="subsection-title">iOS 15-16</div>
+            <a class="btn dopamine" href="#">Dopamine</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Repositories</div>
+        <a class="btn sileo" href="#">Sileo</a>
+        <a class="btn cydia" href="#">Cydia</a>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Homebrew</div>
+
+        <div class="subsection">
+            <div class="subsection-title">Sideload</div>
+            <a class="btn sideloadly" href="#">Sideloadly</a>
+            <a class="btn impactor" href="#">Impactor</a>
+        </div>
+
+        <div class="subsection">
+            <div class="subsection-title">iOS Exploits (running on PC)</div>
+            <a class="btn nugget" href="#">Nugget</a>
+            <a class="btn cowabunga" href="#">Cowabunga Lite</a>
+            <a class="btn utools" href="#">3uTools</a>
+            <a class="btn" href="#">MisakaX / Misaka26</a>
+        </div>
+
+        <div class="subsection">
+            <div class="subsection-title">Alternate stores for iOS</div>
+            <a class="btn altstore" href="#">AltStore</a>
+            <a class="btn sidestore" href="#">SideStore</a>
+        </div>
+
+        <div class="subsection">
+            <div class="subsection-title">Helpful Tools & Exploits</div>
+            <a class="btn livecontainer" href="#">LiveContainer</a>
+            <a class="btn pocketposter" href="#">Pocket Poster</a>
+            <a class="btn stikdebug" href="#">StikDebug</a>
+            <a class="btn localdevvpn" href="#">LocalDevVPN</a>
+            <a class="btn enswilde" href="#">EnsWilde</a>
+        </div>
+
+        <div class="subsection">
+            <div class="subsection-title">Modded Apps</div>
+            <a class="btn youtubeoled" href="#">YouTube OLED</a>
+            <a class="btn ytmusicultimate" href="#">YTMusicUltimate</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Guides</div>
+    </div>
+
+    <div class="hint">
+        Открывай страницу в Safari на iOS
+    </div>
+
+</div>
+
+</body>
+</html>

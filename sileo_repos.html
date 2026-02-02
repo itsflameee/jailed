@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>its.flame's Jailbreak Collection</title>
+
+<style>
+body {
+    margin: 0;
+    background: #0b0b0f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    cursor: pointer;
+    background: #111115;
+}
+
+.header img {
+    width: 48px;  /* можно менять */
+    height: 48px;
+    object-fit: cover;
+    border-radius: 8px; /* слегка скругляем */
+    margin-right: 12px;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.wrapper {
+    padding: 20px;
+    max-width: 630px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.75;
+    margin-bottom: 28px;
+}
+
+.btn {
+    display: block;
+    width: 75%;
+    margin: 0 auto 14px auto;
+    padding: 18px 16px;
+
+    background: linear-gradient(135deg, #5f7cff, #9b5cff);
+    border-radius: 18px;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+
+    box-shadow: 0 10px 30px rgba(111, 92, 255, 0.45);
+    transition: 
+        box-shadow 0.2s ease,
+        font-size 0.2s ease,
+        filter 0.2s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 0 28px rgba(155, 92, 255, 1);
+    font-size: 25px;
+    font-weight: bold;
+    filter: brightness(1.15);
+}
+
+.hint {
+    margin-top: 18px;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+@media (max-width: 400px) {
+    .btn { width: 90%; padding: 14px 12px; font-size: 16px; }
+    .title { font-size: 28px; }
+    .subtitle { font-size: 16px; }
+    .header-title { font-size: 20px; }
+}
+</style>
+
+<script>
+function goHome() {
+    window.location.href = "index.html"; // ссылка на главную страницу
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="header" onclick="goHome()">
+    <img src="logo-placeholder.png" alt="Logo">
+    <div class="header-title">its.flame's Jailed</div>
+</div>
+
+<div class="wrapper">
+    <!-- titles -->
+    <div class="title">
+        its.flame's Jailbreak Collection
+    </div>
+
+    <div class="subtitle">
+        For Sileo
+    </div>
+
+    <!-- buttons -->
+    <a class="btn" href="sileo://source/https://repo.cypwn.xyz">
+        ➕ Добавить CyPwn в Sileo
+    </a>
+
+    <a class="btn" href="sileo://source/https://example.com">
+        ➕ placeholder
+    </a>
+
+    <div class="hint">
+        Открывай страницу в Safari на iOS
+    </div>
+
+</div>
+
+</body>
+</html>
