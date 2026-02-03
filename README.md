@@ -10,9 +10,9 @@ This project is ideal for:
 - Those exploring **homebrew apps** like **SideStore**, **AltStore**, **LiveContainer**, and other.
 - Anyone looking for guides and instructions on **repositories**, **jailbreak methods**, and **installation tips**.
 
-To access the main page and start exploring the collection, follow [link](https://itsflamee.github.io/jailed/)
+To access the main page and start exploring the collection, follow [link](https://itsflameee.github.io/jailed/)
 
-To access the main page directly from your iOS Home Screen, install the [its.flame's Jailed Web Clip](https://github.com/itsflameee/jailed/releases/download/jailed/jailed.mobileconfig). (Only iOS 12 and newer)
+To access the main page directly from your iOS Home Screen, install the [.mobileconfig](https://github.com/itsflameee/jailed/releases/download/jailed/jailed.mobileconfig) file to add a web clip. (iOS 12 and newer only)
 
 ---
 
