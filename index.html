@@ -209,6 +209,92 @@ body {
     .subsection-title { font-size: 18px; }
     .header-title { font-size: 20px; }
 }
+
+.card {
+    width: 75%;
+    margin: 0 auto 28px auto;
+    padding: 20px 18px;
+
+    background: #14141b;
+    border-radius: 22px;
+
+    box-shadow:
+        0 0 22px rgba(155, 92, 255, 0.35),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+
+    text-align: center;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.9;
+    margin-bottom: 6px;
+}
+
+.card-hint {
+    font-size: 13px;
+    opacity: 0.55;
+    margin-bottom: 16px;
+}
+
+.card-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 12px 16px;
+    border-radius: 14px;
+
+    background: linear-gradient(135deg, #5f7cff, #9b5cff);
+    color: white;
+    text-decoration: none;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    box-shadow: 0 6px 18px rgba(111, 92, 255, 0.45);
+    transition: all 0.2s ease;
+}
+
+.card-btn img {
+    width: 18px;
+    height: 18px;
+    border-radius: 5px; /* iOS-like скругление иконки */
+}
+
+.card-btn:hover {
+    box-shadow: 0 0 26px rgba(155, 92, 255, 0.9);
+    font-size: 15.5px;
+}
+
+
+.safari-only,
+.desktop-only,
+.webclip-only {
+    display: none;
+}
+
+body.desktop .desktop-only {
+    display: block;
+}
+
+body.ios-safari .safari-only {
+    display: block;
+}
+
+body.webclip .webclip-only {
+    display: block;
+}
+
+
 </style>
 
 <script>
@@ -216,6 +302,23 @@ function goHome() {
     window.location.href = "https://itsflameee.github.io/jailed/";
 }
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
+    const isStandalone = window.navigator.standalone === true;
+    const isDesktop = !isIOS;
+
+    if (isDesktop) {
+        document.body.classList.add("desktop");
+    } else if (isIOS && !isStandalone) {
+        document.body.classList.add("ios-safari");
+    } else if (isStandalone) {
+        document.body.classList.add("webclip");
+    }
+});
+</script>
+
 
 </head>
 
@@ -299,7 +402,45 @@ function goHome() {
     <div class="hint">
         Открывай страницу в Safari на iOS
     </div>
+</div>
 
+<div class="wrapper">
+    <div class="section">
+        <div class="section-title">Web-clip</div>
+
+        <div class="card safari-only">
+            <div class="card-title">Install web-clip now!</div>
+            <div class="card-text">Access its.flame's Jailed directly from your iOS home screen!</div>
+            <div class="card-hint">Available only on iOS 12 and newer, open this via Safari</div>
+
+            <a class="card-btn" href="#">
+                <img src="icons/emoji_icons/paper.png" alt="">
+                Install .mobileconfig
+            </a>
+        </div>
+
+        <div class="card desktop-only">
+            <div class="card-title">Install web-clip on your iDevice!</div>
+            <div class="card-text">Access its.flame's Jailed directly from your iOS home screen!</div>
+            <div class="card-hint">Visit this site in Safari on your iDevice (only iOS 12 and newer)</div>
+
+            <a class="card-btn">
+                <img src="icons/emoji_icons/block.png" alt="">
+                Only on iOS
+            </a>
+        </div>
+
+        <div class="card webclip-only">
+            <div class="card-title">You already installed web-clip!</div>
+            <div class="card-text">Now you can navigate its.flame's Jailed directly from your iOS Home Screen!</div>
+            <div class="card-hint">To delete this, go to Settings > VPN & Device Management > its.flame's Jailed > Remove Profile</div>
+
+            <a class="card-btn webclip">
+                <img src="icons/emoji_icons/yea.png" alt="">
+                Ready!
+            </a>
+        </div>
+    </div>
 </div>
 
 </body>
