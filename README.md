@@ -12,6 +12,8 @@ This project is ideal for:
 
 To access the main page and start exploring the collection, follow [link](https://itsflamee.github.io/jailed/)
 
+To access the main page directly from your iOS Home Screen, install the [its.flame's Jailed Web Clip](https://github.com/itsflameee/jailed/releases/download/jailed/jailed.mobileconfig). (Only iOS 12 and newer)
+
 ---
 
 Created by its.flame 🥰
