@@ -210,6 +210,30 @@ body {
     .header-title { font-size: 20px; }
 }
 
+@media (max-width: 320px) {
+    .btn {
+        padding: 14px 12px;       /* чуть меньше паддинг */
+        font-size: 18px;           /* текст чуть меньше, чтобы не давил */
+    }
+
+    .btn::before {
+        width: 1.2em;              /* иконка чуть больше по отношению к тексту */
+        height: 1.2em;
+        margin-right: 0.5em;       /* немного пространства */
+    }
+
+    .card-btn {
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+
+    .card-btn img {
+        width: 20px;               /* чуть крупнее для читаемости */
+        height: 20px;
+    }
+}
+
+
 .card {
     width: 75%;
     margin: 0 auto 28px auto;
