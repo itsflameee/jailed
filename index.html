@@ -138,6 +138,10 @@ body {
     background-image: url("icons/impactor.png");
 }
 
+.btn.iloader::before {
+    background-image: url("icons/iloader.png");
+}
+
 
 .btn.nugget::before {
     background-image: url("icons/nugget.png");
@@ -363,7 +367,6 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 
 <div class="wrapper">
-
     <div class="section">
         <div class="section-title">Jailbreak</div>
 
@@ -396,6 +399,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="subsection-title">Sideload</div>
             <a class="btn sideloadly" href="#">Sideloadly</a>
             <a class="btn impactor" href="#">Impactor</a>
+            <a class="btn iloader" href="#">iloader</a>
         </div>
 
         <div class="subsection">
@@ -472,6 +476,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="icons/emoji_icons/yea.png" alt="">
                 Ready!
             </a>
+
+            <a class="card-btn" onclick="goHome()">
+                <img src="icons/emoji_icons/reload.png" alt="">
+                Reload
+            </a>
+
         </div>
     </div>
 </div>
