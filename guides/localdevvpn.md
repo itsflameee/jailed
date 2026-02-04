@@ -3,8 +3,8 @@
 > by its.flame's Jailed!
 
 # Table of Contents
-1. [What is it?](https://github.com/itsflameee/jailed/edit/main/guides/localdevvpn.md#what-is-it)
-2. [Installation](https://github.com/itsflameee/jailed/edit/main/guides/localdevvpn.md#installation)
+1. [What is it?](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn.md#what-is-it)
+2. [Installation](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn.md#installation)
 
 ## What is it?
 LocalDevVPN is a developer tool for creating and managing local network tunnels directly on iOS. It gives you a secure, isolated virtual interface for testing and debugging without sending traffic to external servers
