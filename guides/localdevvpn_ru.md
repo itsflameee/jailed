@@ -13,4 +13,4 @@ LocalDevVPN - инструмент для разработчиков, позво
 ## Установка
 LocalDevVPN можно установить из [AppStore](https://apps.apple.com/us/app/localdevvpn/id6755608044) или [AltStore PAL](https://api.altstore.io/source/adp.se2crid.me?app=com.jkcoxson.LocalDevVPN) (ссылки взяты из [официального GitHub-репозитория LocalDevVPN](https://github.com/jkcoxson/LocalDevVPN))
 
-Настройка LocalDevVPN не требуется, для работы on-device (по типу SideStore, StikDebug и EnsWild) приложений достаточно установить приложение и нажать "Connect"
+Настройка LocalDevVPN не требуется, для работы on-device (по типу SideStore, StikDebug и EnsWild) приложений достаточно установить приложение и нажать **"Connect"**
