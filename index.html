@@ -46,6 +46,13 @@ body {
     margin-bottom: 40px;
 }
 
+.absoulute-title {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
 .section-title {
     font-size: 30px;
     font-weight: 700;
@@ -309,7 +316,7 @@ body {
 
 .card-btn:hover {
     box-shadow: 0 0 26px rgba(155, 92, 255, 0.9);
-    font-size: 15.5px;
+    font-size: 20px;
 }
 
 
@@ -356,6 +363,28 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const shareBtn = document.getElementById("shareBtn");
+
+    if (navigator.share) {
+        shareBtn.addEventListener("click", async (e) => {
+            e.preventDefault();
+            try {
+                await navigator.share({
+                    title: "its.flame's Jailed",
+                    text: "Check out its.flame's Jailed!",
+                    url: "https://itsflameee.github.io/jailed/"
+                });
+            } catch (err) {
+                console.log("Share cancelled or failed:", err);
+            }
+        });
+    } else {
+        shareBtn.style.display = "none";
+    }
+});
+</script>
 
 </head>
 
@@ -364,6 +393,38 @@ document.addEventListener("DOMContentLoaded", () => {
 <div class="header" onclick="goHome()">
     <img src="logo.png" alt="Logo">
     <div class="header-title">its.flame's Jailed</div>
+</div>
+
+<div class="wrapper">
+    <div class="section">
+        <div class="absoulute-title">Jailed!</div>
+            <div class="card webclip-only">
+                <div class="card-title">Welcome to its.flame's Jailed!</div>
+                <div class="card-text">its.flame's Jailed is the ultimate collection for jailbroken and jailed iOS devices</div>
+                <div class="card-hint">Explore this ultimate collection on your device! You can open this on any your iDevice, just click "Share".</div>
+
+                <a class="card-btn">
+                    <img src="icons/github.png" alt="">
+                    GitHub
+                </a>
+
+                <a class="card-btn" id="shareBtn">
+                    <img src="icons/emoji_icons/share.png" alt="">
+                    Share
+                </a>
+            </div>
+
+            <div class="card desktop-only">
+                <div class="card-title">Welcome to its.flame's Jailed!</div>
+                <div class="card-text">its.flame's Jailed is the ultimate collection for jailbroken and jailed iOS devices</div>
+                <div class="card-hint">Explore this ultimate collection on your device!</div>
+
+                <a class="card-btn">
+                    <img src="icons/github.png" alt="">
+                    GitHub
+                </a>
+            </div>
+    </div>
 </div>
 
 <div class="wrapper">
@@ -481,7 +542,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="icons/emoji_icons/reload.png" alt="">
                 Reload
             </a>
-
         </div>
     </div>
 </div>
