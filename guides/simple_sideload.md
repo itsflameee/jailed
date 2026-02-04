@@ -3,9 +3,9 @@
 > by its.flame's Jailed!
 
 # Table of Contents
-1. [Choosing a Sideload Method  ](https://github.com/itsflameee/jailed/blob/main/guides#choosing-a-sideload-method)
-2. [Recommendations from the its.flame's Jailed Team](https://github.com/itsflameee/jailed/blob/main/guides#recommendations-from-the-itsflames-jailed-team) 
-3. [Sideload Process ](https://github.com/itsflameee/jailed/blob/main/guides#sideload-process) 
+1. [Choosing a Sideload Method  ](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload.md#choosing-a-sideload-method)
+2. [Recommendations from the its.flame's Jailed Team](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload.md#recommendations-from-the-itsflames-jailed-team) 
+3. [Sideload Process](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload.md#sideload-process) 
 
 ## Choosing a Sideload Method
 > [!NOTE]
