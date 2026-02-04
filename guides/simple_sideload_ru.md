@@ -3,9 +3,9 @@
 > by its.flame's Jailed!
 
 # Оглавление
-1. [Выбор метода Sideload'a](https://github.com/itsflameee/jailed/edit/main/guides/simple_sideload_ru.md#выбор-метода-sideloada)
-2. [Рекомендации от команды its.flame's Jailed](https://github.com/itsflameee/jailed/edit/main/guides/simple_sideload_ru.md#рекомендации-от-команды-itsflames-jailed)
-3. [Процесс Sideload'а](https://github.com/itsflameee/jailed/edit/main/guides/simple_sideload_ru.md#процесс-sideloadа)
+1. [Выбор метода Sideload'a](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload_ru.md#выбор-метода-sideloada)
+2. [Рекомендации от команды its.flame's Jailed](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload_ru.md#рекомендации-от-команды-itsflames-jailed)
+3. [Процесс Sideload'а](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload_ru.md#процесс-sideloadа)
 
 ## Выбор метода Sideload'a
 > [!NOTE]
@@ -17,7 +17,7 @@
 ### <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="20" height="20"/> [SideStore](https://github.com/itsflameee/jailed/blob/main/guides/sidestore_ru.md)
 > *SideStore является форком AltStore*
 
-Этот метод является самым лучшим на данный момент, ведь он позволяет вам выполнять Sideload и продлевать подпись приложений непосредственно на устройстве (on-device метод), при этом данный метод работает только при использовании [LocalDevVPN](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn_ru.md) (непосредственно на момент Sideload'а или продления подписей). У вас могут быть проблемы с совместимостью на старых устройствах (последняя версия SideStore на момент начала февраля 2026 доступна начиная с iOS 14). Также у LiveContainer имеется версия, где встроен SideStore, что позволяет вам более эффективно использовать ограничение в 3 приложения на бесплатном Apple ID. Выбирайте этот способ, если:
+Этот метод является самым лучшим на данный момент, ведь он позволяет вам выполнять Sideload и продлевать подпись приложений непосредственно на устройстве (on-device метод), при этом данный метод работает только при использовании <img src="https://github.com/itsflameee/jailed/blob/main/icons/localdevvpn.png?raw=true" width="12" height="12"/> [LocalDevVPN](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn_ru.md) (непосредственно на момент Sideload'а или продления подписей). У вас могут быть проблемы с совместимостью на старых устройствах (последняя версия SideStore на момент начала февраля 2026 доступна начиная с iOS 14). Также у LiveContainer имеется версия, где встроен SideStore, что позволяет вам более эффективно использовать ограничение в 3 приложения на бесплатном Apple ID. Выбирайте этот способ, если:
 - Вам необходима возможность Sideload'а и продления подписей непосредственно на устройстве (on-device метод)
 - Вас интересует интеграция с LiveContainer
 

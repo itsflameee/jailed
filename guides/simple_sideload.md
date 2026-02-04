@@ -3,9 +3,9 @@
 > by its.flame's Jailed!
 
 # Table of Contents
-1. [Choosing a Sideload Method  ](https://github.com/itsflameee/jailed/new/main/guides#choosing-a-sideload-method)
-2. [Recommendations from the its.flame's Jailed Team](https://github.com/itsflameee/jailed/new/main/guides#recommendations-from-the-itsflames-jailed-team) 
-3. [Sideload Process ](https://github.com/itsflameee/jailed/new/main/guides#sideload-process) 
+1. [Choosing a Sideload Method  ](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload.md#choosing-a-sideload-method)
+2. [Recommendations from the its.flame's Jailed Team](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload.md#recommendations-from-the-itsflames-jailed-team) 
+3. [Sideload Process](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload.md#sideload-process) 
 
 ## Choosing a Sideload Method
 > [!NOTE]
@@ -18,7 +18,7 @@ First, you need to decide which sideloading method you want to use. Below, we wi
 > *SideStore is a fork of AltStore*
 
 This is currently the best sideloading method available. It allows you to sideload and refresh app signatures directly on the device (on-device method).  
-However, it requires the use of [LocalDevVPN](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn.md) during sideloading or signature refresh.
+However, it requires the use of <img src="https://github.com/itsflameee/jailed/blob/main/icons/localdevvpn.png?raw=true" width="12" height="12"/> [LocalDevVPN](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn.md) during sideloading or signature refresh.
 
 You may encounter compatibility issues on older devices (as of early February 2026, the latest version of SideStore supports iOS 14 and newer).  
 LiveContainer also has a version with SideStore built in, allowing more efficient use of the 3-app limit imposed on free Apple IDs.
