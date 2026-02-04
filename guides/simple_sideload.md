@@ -18,7 +18,7 @@ First, you need to decide which sideloading method you want to use. Below, we wi
 > *SideStore is a fork of AltStore*
 
 This is currently the best sideloading method available. It allows you to sideload and refresh app signatures directly on the device (on-device method).  
-However, it requires the use of [LocalDevVPN](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn.md) during sideloading or signature refresh.
+However, it requires the use of <img src="https://github.com/itsflameee/jailed/blob/main/icons/localdevvpn.png?raw=true" width="12" height="12"/> [LocalDevVPN](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn.md) during sideloading or signature refresh.
 
 You may encounter compatibility issues on older devices (as of early February 2026, the latest version of SideStore supports iOS 14 and newer).  
 LiveContainer also has a version with SideStore built in, allowing more efficient use of the 3-app limit imposed on free Apple IDs.
