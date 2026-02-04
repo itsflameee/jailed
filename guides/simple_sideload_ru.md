@@ -13,32 +13,32 @@
 
 Для начала вам надо определиться каким образом вы будете делать Sideload. Сейчас мы вам поможем определиться:
 
-### <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="20" height="20"/> SideStore
+### <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="20" height="20"/> [SideStore](https://github.com/itsflameee/jailed/blob/main/guides/sidestore_ru.md)
 > *SideStore является форком AltStore*
 
-Этот метод является самым лучшим на данный момент, ведь он позволяет вам выполнять Sideload и продлевать подпись приложений непосредственно на устройстве (on-device метод), при этом данный метод работает только при использовании [LocalDevVPN](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn) (непосредственно на момент Sideload'а или продления подписей). У вас могут быть проблемы с совместимостью на старых устройствах (последняя версия SideStore на момент начала февраля 2026 доступна начиная с iOS 14). Также у LiveContainer имеется версия, где встроен SideStore, что позволяет вам более эффективно использовать ограничение в 3 приложения на бесплатном Apple ID. Выбирайте этот способ, если:
+Этот метод является самым лучшим на данный момент, ведь он позволяет вам выполнять Sideload и продлевать подпись приложений непосредственно на устройстве (on-device метод), при этом данный метод работает только при использовании [LocalDevVPN](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn_ru.md) (непосредственно на момент Sideload'а или продления подписей). У вас могут быть проблемы с совместимостью на старых устройствах (последняя версия SideStore на момент начала февраля 2026 доступна начиная с iOS 14). Также у LiveContainer имеется версия, где встроен SideStore, что позволяет вам более эффективно использовать ограничение в 3 приложения на бесплатном Apple ID. Выбирайте этот способ, если:
 - Вам необходима возможность Sideload'а и продления подписей непосредственно на устройстве (on-device метод)
 - Вас интересует интеграция с LiveContainer
 
-### <img src="https://github.com/itsflameee/jailed/blob/main/icons/altstore.png?raw=true" width="20" height="20"/> AltStore
+### <img src="https://github.com/itsflameee/jailed/blob/main/icons/altstore.png?raw=true" width="20" height="20"/> [AltStore](https://github.com/itsflameee/jailed/blob/main/guides/altstore_ru.md)
 Этот метод является (или являлся) одним из самых популярных, ведь он позволяет выполнять Sideload и продление подписи приложений через удобный интерфейс на самом устройстве, однако при этом требует постоянного подключения к ПК с установленным AltServer (непосредственно на момент Sideload'а или продления подписей). Проблемы с совместимостью маловероятны, так как AltServer позволяет устанавливать AltStore старых версий, что обеспечивает совместимость с старыми устройствами (командой its.flame's Jailed проверялась поддержка на iPhone 5s с iOS 12.5.7). Используйте этот способ, если:
 - Вас интересует поддержка старых iOS
 
-### <img src="https://github.com/itsflameee/jailed/blob/main/icons/sideloadly.png?raw=true" width="20" height="20"/> Sideloadly
+### <img src="https://github.com/itsflameee/jailed/blob/main/icons/sideloadly.png?raw=true" width="20" height="20"/> [Sideloadly](https://github.com/itsflameee/jailed/blob/main/guides/sideloadly_ru.md)
 Этот метод является одним из самых популярных из-за своей простоты, для Sideload'а достаточно подключить устройство к ПК используя кабель, и на ПК выбрать IPA файл и настройки Sideload'а. Используйте этот способ, если:
 - Вы не считаете необходимым Sideload и продление подписей непосредственно на устройстве
 - Вам нужна скорость и простота
 
-### <img src="https://github.com/itsflameee/jailed/blob/main/icons/impactor.png?raw=true" width="20" height="20"/> Impactor
-Этот метод очень схож с Sideloadly, описание для этого метода не требуется.
+### <img src="https://github.com/itsflameee/jailed/blob/main/icons/impactor.png?raw=true" width="20" height="20"/> [Impactor](https://github.com/itsflameee/jailed/blob/main/guides/impactor_ru.md)
+Этот метод очень схож с Sideloadly, описание для этого метода не требуется, однако стоит подметить, что данный метод является устаревшим, и мы его рекомендуем только для старых iOS (например, iOS 12)
 
-### <img src="https://github.com/itsflameee/jailed/blob/main/icons/iloader.png?raw=true" width="20" height="20"/> iloader
-Этот метод также схож с Sideloadly и Impactor, однако отличается более современным дизайном, удобством в использовании, дополнительным функционалом (Pairing File и связь с SideStore и LiveContainer), а также возможностью скачать SideStore и LiveContainer непосредственно внутри установщика. Этот метод SideLoad'а является оффициальным для установки SideStore, и команда its.flame's Jailed советует именно его. Выбирайте этот метод, если:
+### <img src="https://github.com/itsflameee/jailed/blob/main/icons/iloader.png?raw=true" width="20" height="20"/> [iloader](https://github.com/itsflameee/jailed/blob/main/guides/iloader_ru.md)
+Этот метод также схож с Sideloadly и Impactor, однако отличается более современным дизайном, удобством в использовании, дополнительным функционалом (Pairing File и связь с SideStore и LiveContainer), а также возможностью скачать SideStore и LiveContainer непосредственно внутри установщика. Этот метод Sideload'а является официальным для установки SideStore, и команда its.flame's Jailed советует именно его. Выбирайте этот метод, если:
 - Вам нужно скачать SideStore / LiveContainer / LiveContainer+SideStore
 - Вам нужен встроенный функционал Pairing File (JitterBugPair)
 
-### <img src="https://github.com/itsflameee/jailed/blob/main/icons/livecontainer.png?raw=true" width="20" height="20"/> LiveContainer
-LiveContainer не является методом полноценного SideLoad'а, но при этом позволяет запускать стороннее ПО. Этот метод рекомендуется использовать вместе с SideStore, используйте его, если:
+### <img src="https://github.com/itsflameee/jailed/blob/main/icons/livecontainer.png?raw=true" width="20" height="20"/> [LiveContainer](https://github.com/itsflameee/jailed/blob/main/guides/sidestore_ru.md)
+LiveContainer не является методом полноценного Sideload'а, но при этом позволяет запускать стороннее ПО, и держать его в "контейнере", ознакомтесь с ограничениями этого метода в гайде по SideStore и LiveContainer . Этот метод рекомендуется использовать вместе с SideStore, используйте его, если:
 - Вам нужно больше 3-х приложений в бесплатном Apple ID
 - Вам нужен встроенный SideStore
 
