@@ -311,12 +311,19 @@ body {
 .card-btn img {
     width: 18px;
     height: 18px;
-    border-radius: 5px; /* iOS-like скругление иконки */
+    border-radius: 5px;
 }
 
 .card-btn:hover {
     box-shadow: 0 0 26px rgba(155, 92, 255, 0.9);
     font-size: 20px;
+}
+
+.card-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
 }
 
 
@@ -402,16 +409,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="card-title">Welcome to its.flame's Jailed!</div>
                 <div class="card-text">its.flame's Jailed is the ultimate collection for jailbroken and jailed iOS devices</div>
                 <div class="card-hint">Explore this ultimate collection on your device! You can open this on any your iDevice, just click "Share".</div>
+                
+                <div class="card-btns">
+                    <a class="card-btn">
+                        <img src="icons/github.png" alt="">
+                        GitHub
+                    </a>
 
-                <a class="card-btn">
-                    <img src="icons/github.png" alt="">
-                    GitHub
-                </a>
-
-                <a class="card-btn" id="shareBtn">
-                    <img src="icons/emoji_icons/share.png" alt="">
-                    Share
-                </a>
+                    <a class="card-btn" id="shareBtn">
+                        <img src="icons/emoji_icons/share.png" alt="">
+                        Share
+                    </a>
+                </div>
             </div>
 
             <div class="card desktop-only">
@@ -532,16 +541,18 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="card-title">You already installed web-clip!</div>
             <div class="card-text">Now you can navigate its.flame's Jailed directly from your iOS Home Screen!</div>
             <div class="card-hint">To delete this, go to Settings > VPN & Device Management > its.flame's Jailed > Remove Profile</div>
+            
+            <div class="card-btns">
+                <a class="card-btn webclip">
+                    <img src="icons/emoji_icons/yea.png" alt="">
+                    Ready!
+                </a>
 
-            <a class="card-btn webclip">
-                <img src="icons/emoji_icons/yea.png" alt="">
-                Ready!
-            </a>
-
-            <a class="card-btn" onclick="goHome()">
-                <img src="icons/emoji_icons/reload.png" alt="">
-                Reload
-            </a>
+                <a class="card-btn" onclick="goHome()">
+                    <img src="icons/emoji_icons/reload.png" alt="">
+                    Reload
+                </a>
+            </div>
         </div>
     </div>
 </div>
