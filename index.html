@@ -428,6 +428,30 @@ window.addEventListener('scroll', () => {
 });
 </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const shareBtn = document.getElementById("shareBtn");
+    if (!shareBtn) return;
+
+    shareBtn.addEventListener("click", async (e) => {
+        e.preventDefault();
+
+        if (navigator.share) {
+            try {
+                await navigator.share({
+                    title: "its.flame's Jailed",
+                    text: "Ultimate collection for jailbroken & jailed iOS devices",
+                    url: window.location.href
+                });
+            } catch (err) {
+                
+            }
+        } else {
+            alert("Sharing is not supported on this device");
+        }
+    });
+});
+</script>
 </head>
 
 <body>
