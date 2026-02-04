@@ -3,8 +3,8 @@
 > by its.flame's Jailed!
 
 # Оглавление
-1. Что это?
-2. Установка
+1. [Что это?](https://github.com/itsflameee/jailed/edit/main/guides/localdevvpn_ru.md#что-это)
+2. [Установка](https://github.com/itsflameee/jailed/edit/main/guides/localdevvpn_ru.md#установка)
 
 ## Что это?
 LocalDevVPN - инструмент для разработчиков, позволяющий создавать локальные сетевые туннели и управлять ими непосредственно на iOS. Он предоставляет безопасный изолированный виртуальный интерфейс для тестирования и отладки без отправки трафика на внешние серверы (информация взята из [официального GitHub-репозитория LocalDevVPN](https://github.com/jkcoxson/LocalDevVPN)).
