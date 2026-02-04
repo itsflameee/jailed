@@ -3,9 +3,9 @@
 > by its.flame's Jailed!
 
 # Оглавление
-1. [Выбор метода Sideload'a](https://github.com/itsflameee/jailed/edit/main/guides/simple_sideload_ru.md#выбор-метода-sideloada)
-2. [Рекомендации от команды its.flame's Jailed](https://github.com/itsflameee/jailed/edit/main/guides/simple_sideload_ru.md#рекомендации-от-команды-itsflames-jailed)
-3. [Процесс Sideload'а](https://github.com/itsflameee/jailed/edit/main/guides/simple_sideload_ru.md#процесс-sideloadа)
+1. [Выбор метода Sideload'a](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload_ru.md#выбор-метода-sideloada)
+2. [Рекомендации от команды its.flame's Jailed](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload_ru.md#рекомендации-от-команды-itsflames-jailed)
+3. [Процесс Sideload'а](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload_ru.md#процесс-sideloadа)
 
 ## Выбор метода Sideload'a
 > [!NOTE]
