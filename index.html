@@ -47,6 +47,18 @@ body {
 .header-title {
     font-size: 24px;
     font-weight: 700;
+
+    color: white;
+    white-space: nowrap;
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+}
+
+.header-title.hidden {
+    opacity: 0;
+    transform: translateY(-6px);
 }
 
 .wrapper {
@@ -387,24 +399,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-    const shareBtn = document.getElementById("shareBtn");
+    const title = document.querySelector('.header-title');
+    if (!title) return;
 
-    if (navigator.share) {
-        shareBtn.addEventListener("click", async (e) => {
-            e.preventDefault();
-            try {
-                await navigator.share({
-                    title: "its.flame's Jailed",
-                    text: "Check out its.flame's Jailed!",
-                    url: "https://itsflameee.github.io/jailed/"
-                });
-            } catch (err) {
-                console.log("Share cancelled or failed:", err);
-            }
-        });
-    } else {
-        shareBtn.style.display = "none";
-    }
+    const maxScroll = 100;
+
+    window.addEventListener('scroll', () => {
+        const scroll = Math.min(window.scrollY, maxScroll);
+        const progress = 1 - scroll / maxScroll;
+
+        title.style.opacity = progress;
+        title.style.transform = `translateY(${(1 - progress) * -6}px)`;
+    });
+});
+</script>
+
+
+<script>
+const title = document.querySelector('.header-title');
+const maxScroll = 100;
+
+window.addEventListener('scroll', () => {
+    const scroll = Math.min(window.scrollY, maxScroll);
+    const progress = 1 - scroll / maxScroll;
+
+    title.style.opacity = progress;
+    title.style.transform = `translateY(${(1 - progress) * -6}px)`;
 });
 </script>
 
@@ -413,7 +433,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <body>
 
 <div class="header" onclick="goHome()">
-    <img src="logo.png" alt="Logo">
+    <img src="logo.png" class="header-logo" alt="Logo">
     <div class="header-title">its.flame's Jailed</div>
 </div>
 
