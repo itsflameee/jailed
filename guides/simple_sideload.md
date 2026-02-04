@@ -9,7 +9,7 @@
 
 ## Choosing a Sideload Method
 > [!NOTE]
-> The its.flame's Injected team is not affiliated with or the developer of SideStore, AltStore, Sideloadly, Impactor, iloader, or LiveContainer.  
+> The its.flame's Jailed team is not affiliated with or the developer of SideStore, AltStore, Sideloadly, Impactor, iloader, or LiveContainer.  
 > We do not claim ownership of their work. All information provided here is for instructional purposes only, to help achieve a convenient sideloading experience.
 
 First, you need to decide which sideloading method you want to use. Below, we will help you choose the most suitable option.
