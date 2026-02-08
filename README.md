@@ -1,4 +1,4 @@
-# its.flame's Jailed
+# <img src="https://github.com/itsflameee/jailed/blob/main/logo.png?raw=true" width="25" height="25"/> its.flame's Jailed
 
 **its.flame's Jailed** is the ultimate collection for jailbroken and jailed iOS devices. This repository provides an all-in-one hub for iOS enthusiasts who want to explore homebrew apps, repositories, jailbreak tools, guides, and other useful tools for their devices.
 
