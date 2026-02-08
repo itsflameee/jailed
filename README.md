@@ -14,6 +14,10 @@ To access the main page and start exploring the collection, follow [link](https:
 
 To access the main page directly from your iOS Home Screen, install the [.mobileconfig](https://github.com/itsflameee/jailed/releases/download/jailed/jailed.mobileconfig) file to add a web clip. (iOS 12 and newer only)
 
+[![GitHub Stars](https://img.shields.io/github/stars/itsflameee/jailed?style=social)](https://github.com/itsflameee/jailed/stargazers)
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/itsflameee/jailed)](https://github.com/itsflameee/jailed/commits/main)  ![Top language](https://img.shields.io/github/languages/top/itsflameee/jailed)  ![Platform](https://img.shields.io/badge/platform-Web,%20iOS%20-lightgrey)
+
 ---
 
 Created by its.flame 🥰
