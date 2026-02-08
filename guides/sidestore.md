@@ -1,6 +1,6 @@
 [ [RU](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload_ru.md) / **[EN](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload.md)** ]
 
-# <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="20" height="20"/> SideStore
+# <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="20" height="20"/> SideStore &  <img src="https://github.com/itsflameee/jailed/blob/main/icons/livecontainer.png?raw=true" width="20" height="20"/> LiveContainer
 > Guide by its.flame's Jailed!
 
 # Table of contents
