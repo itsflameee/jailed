@@ -1,6 +1,6 @@
 [ [RU](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn_ru.md) / **[EN](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn.md)** ]
 # <img src="https://github.com/itsflameee/jailed/blob/main/icons/localdevvpn.png?raw=true" width="25" height="25"/> LocalDevVPN
-> by its.flame's Jailed!
+> Guide by its.flame's Jailed!
 
 # Table of Contents
 1. [What is it?](https://github.com/itsflameee/jailed/blob/main/guides/localdevvpn.md#what-is-it)
