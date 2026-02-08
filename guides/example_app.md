@@ -1,3 +1,5 @@
+[ [RU](https://github.com/itsflameee/jailed/blob/main/guides/example_app_ru.md) / **[EN](https://github.com/itsflameee/jailed/blob/main/guides/example_app.md)** ]
+
 <div align="center">
   <img
     width="150"
