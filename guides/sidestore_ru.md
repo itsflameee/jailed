@@ -1,4 +1,4 @@
-[ **[RU](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload_ru.md)** / [EN](https://github.com/itsflameee/jailed/blob/main/guides/simple_sideload.md) ]
+[ **[RU](https://github.com/itsflameee/jailed/blob/main/guides/sidestore_ru.md)** / [EN](https://github.com/itsflameee/jailed/blob/main/guides/sidestore.md) ]
 # <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="20" height="20"/> SideStore
 > Guide by its.flame's Jailed!
 
