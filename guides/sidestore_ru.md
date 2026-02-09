@@ -8,6 +8,7 @@
 3. LiveContainer - Что это?
 4. Установка LiveContainer
 5. Установка SideStore+LiveContainer
+6. Процесс Sideload'а (SideStore / LiveContainer)
 
 # SideStore - Что это?
 > *SideStore является форком AltStore*
@@ -75,3 +76,36 @@ LiveContainer - это лаунчер приложений, который по�
 2. Зайдите в <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="12" height="12"/> SideStore, предварительно убедившись, что вы запустили <img src="https://github.com/itsflameee/jailed/blob/main/icons/localdevvpn.png?raw=true" width="12" height="12"/> LocalDevVPN.
 3. Нажмите на «+», после чего выберите скачанный ранее IPA-файл
 4. После успешной установки удалите <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="12" height="12"/> SideStore
+
+# Процесс SideLoad'а
+## <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="20" height="20"/> Через SideStore
+### Через кнопку <img src="https://github.com/itsflameee/jailed/blob/main/icons/emoji_icons/share.png?raw=true" width="15" height="15"/> Поделиться
+1. Скачайте нужный вам IPA-файл
+2. Убедитесь что у вас запущен <img src="https://github.com/itsflameee/jailed/blob/main/icons/localdevvpn.png?raw=true" width="20" height="20"/> LocalDevVPN
+3. Если вы используете LiveContainer+SideStore, убедитесь, что у вас открыт SideStore (для этого нажмите на иконку SideStore слева сверху)
+4. Откройте <img src="https://github.com/itsflameee/jailed/blob/main/icons/apple/com.apple.DocumentsApp.png?raw=true" width="12" height="12"/> **Файлы**
+5. Откройте нужный файл, нажмите <img src="https://github.com/itsflameee/jailed/blob/main/icons/emoji_icons/share.png?raw=true" width="12" height="12"/> **Поделиться** и выберите <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="12" height="12"/> SideStore (если вы используете SideStore+LiveContainer, выберите <img src="https://github.com/itsflameee/jailed/blob/main/icons/livecontainer.png?raw=true" width="12" height="12"/> LiveContainer)
+
+### Через приложение
+1. Скачайте нужный вам IPA-файл
+2. Убедитесь что у вас запущен <img src="https://github.com/itsflameee/jailed/blob/main/icons/localdevvpn.png?raw=true" width="20" height="20"/> LocalDevVPN
+3. Если у вас LiveContainer+SideStore, предварительно в главном меню LiveContainer нажмите на иконку SideStore слева сверху. Далее шаги будут одинковы для SideStore и LiveContainer+SideStore.
+4. Нажмите на «+», после чего выберите скачанный ранее IPA-файл, после чего дождитесь загрузки и ваше приложение появиться на рабочем столе.
+
+## <img src="https://github.com/itsflameee/jailed/blob/main/icons/livecontainer.png?raw=true" width="20" height="20"/> Через LiveContainer
+
+### Через кнопку <img src="https://github.com/itsflameee/jailed/blob/main/icons/emoji_icons/share.png?raw=true" width="15" height="15"/> Поделиться
+1. Скачайте нужный вам IPA-файл
+2. Убедитесь, что у вас закрыт LiveContainer или открыто главное меню (см. скриншот)
+<img src="https://github.com/itsflameee/jailed/blob/main/screenshots/sidestore_guide_screenshot_1.PNG?raw=true" width="258" height="558"/>
+
+3. Откройте <img src="https://github.com/itsflameee/jailed/blob/main/icons/apple/com.apple.DocumentsApp.png?raw=true" width="12" height="12"/> **Файлы**
+4. Откройте нужный файл, нажмите <img src="https://github.com/itsflameee/jailed/blob/main/icons/emoji_icons/share.png?raw=true" width="12" height="12"/> **Поделиться** и выберите <img src="https://github.com/itsflameee/jailed/blob/main/icons/livecontainer.png?raw=true" width="12" height="12"/> LiveContainer, после чего вы увидите в списке новое приложение.
+
+### Через приложение
+1. Скачайте нужный вам IPA-файл
+2. Убедитесь, что у вас открыто главное меню LiveContainer (см. скриншот)
+<img src="https://github.com/itsflameee/jailed/blob/main/screenshots/sidestore_guide_screenshot_1.PNG?raw=true" width="258" height="558"/>
+
+3. Нажмите на **«+»** в левом верхнем углу
+4. Выберите нужный файл, после чего вы увидите в списке новое приложение.
