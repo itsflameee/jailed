@@ -9,6 +9,7 @@
 3. LiveContainer — What is it?
 4. Installing LiveContainer
 5. Installing SideStore + LiveContainer
+6. Sideload Process
 
 # SideStore — What is it?
 > *SideStore is a fork of AltStore*
@@ -91,3 +92,46 @@ If you already have SideStore installed and want to install LiveContainer by mer
    <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="12" height="12"/> SideStore, making sure that  <img src="https://github.com/itsflameee/jailed/blob/main/icons/localdevvpn.png?raw=true" width="12" height="12"/> LocalDevVPN  is running.
 3. Tap the **“+”** button and select the previously downloaded IPA file.
 4. After successful installation, delete  <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="12" height="12"/> SideStore.
+
+# Sideload Process
+
+## <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="20" height="20"/> Via SideStore
+
+### Using the <img src="https://github.com/itsflameee/jailed/blob/main/icons/emoji_icons/share.png?raw=true" width="15" height="15"/> Share button
+1. Download the IPA file you need
+2. Make sure that <img src="https://github.com/itsflameee/jailed/blob/main/icons/localdevvpn.png?raw=true" width="20" height="20"/> LocalDevVPN is running
+3. If you are using LiveContainer+SideStore, make sure that SideStore is open (to do this, tap the SideStore icon in the top-left corner)
+4. Open <img src="https://github.com/itsflameee/jailed/blob/main/icons/apple/com.apple.DocumentsApp.png?raw=true" width="12" height="12"/> **Files**
+5. Open the required file, tap <img src="https://github.com/itsflameee/jailed/blob/main/icons/emoji_icons/share.png?raw=true" width="12" height="12"/> **Share**, and select <img src="https://github.com/itsflameee/jailed/blob/main/icons/sidestore.png?raw=true" width="12" height="12"/> SideStore  
+   (if you are using SideStore+LiveContainer, select <img src="https://github.com/itsflameee/jailed/blob/main/icons/livecontainer.png?raw=true" width="12" height="12"/> LiveContainer)
+
+### Via the app
+1. Download the IPA file you need
+2. Make sure that <img src="https://github.com/itsflameee/jailed/blob/main/icons/localdevvpn.png?raw=true" width="20" height="20"/> LocalDevVPN is running
+3. If you are using LiveContainer+SideStore, open SideStore from the main LiveContainer menu by tapping the SideStore icon in the top-left corner.  
+   The following steps are the same for both SideStore and LiveContainer+SideStore.
+4. Tap the **“+”** button, select the previously downloaded IPA file, wait for the installation to complete, and the app will appear on the Home Screen.
+
+---
+
+## <img src="https://github.com/itsflameee/jailed/blob/main/icons/livecontainer.png?raw=true" width="20" height="20"/> Via LiveContainer
+
+### Using the <img src="https://github.com/itsflameee/jailed/blob/main/icons/emoji_icons/share.png?raw=true" width="15" height="15"/> Share button
+1. Download the IPA file you need
+2. Make sure LiveContainer is closed or that the main menu is open (see screenshot below)
+
+<img src="https://github.com/itsflameee/jailed/blob/main/screenshots/sidestore_guide_screenshot_1.PNG?raw=true" width="258" height="558"/>
+
+3. Open <img src="https://github.com/itsflameee/jailed/blob/main/icons/apple/com.apple.DocumentsApp.png?raw=true" width="12" height="12"/> **Files**
+4. Open the required file, tap <img src="https://github.com/itsflameee/jailed/blob/main/icons/emoji_icons/share.png?raw=true" width="12" height="12"/> **Share**, and select <img src="https://github.com/itsflameee/jailed/blob/main/icons/livecontainer.png?raw=true" width="12" height="12"/> LiveContainer.  
+   After that, you will see the new app in the list.
+
+### Via the app
+1. Download the IPA file you need
+2. Make sure the LiveContainer main menu is open (see screenshot below)
+
+<img src="https://github.com/itsflameee/jailed/blob/main/screenshots/sidestore_guide_screenshot_1.PNG?raw=true" width="258" height="558"/>
+
+3. Tap the **“+”** button in the top-left corner
+4. Select the required file, after which the new app will appear in the list.
+
