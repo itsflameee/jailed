@@ -16,7 +16,7 @@ To access the main page directly from your iOS Home Screen, install the [.mobile
 
 ---
 
-[![GitHub Stars](https://img.shields.io/github/stars/itsflameee/jailed?style=social)](https://github.com/itsflameee/jailed/stargazers) [![Add .mobileconfig](https://github.com/itsflameee/jailed/releases/download/jailed_mobile_v2/jailed.mobileconfig)
+[![GitHub Stars](https://img.shields.io/github/stars/itsflameee/jailed?style=social)](https://github.com/itsflameee/jailed/stargazers) [![Add .mobileconfig](https://img.shields.io/badge/Add-.mobileconfig-blue?style=flat)](https://github.com/itsflameee/jailed/releases/download/jailed_mobile_v2/jailed.mobileconfig)
 
 ---
 
