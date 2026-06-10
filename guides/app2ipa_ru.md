@@ -1,4 +1,4 @@
-[ [RU](https://github.com/itsflameee/jailed/blob/main/guides/app2ipa_ru.md) / **[EN](https://github.com/itsflameee/jailed/blob/main/guides/app2ipa.md)** ]
+[ **[RU](https://github.com/itsflameee/jailed/blob/main/guides/app2ipa_ru.md)** / [EN](https://github.com/itsflameee/jailed/blob/main/guides/app2ipa.md) ]
 
 <div align="center">
   <img
